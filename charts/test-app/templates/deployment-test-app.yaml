@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: "s23383docker/test-app:{{ .Values.image.version }}"
+        image: "wicia8860/test-app:{{ .Values.image.version }}"
         ports:
         - containerPort: {{ .Values.port }}

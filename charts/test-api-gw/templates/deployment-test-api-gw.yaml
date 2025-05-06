@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: test-api-gw
-        image: "s23383docker/test-api-gw:{{ .Values.image.version }}"
+        image: "wicia8860/test-api-gw:{{ .Values.image.version }}"
         ports:
         - containerPort: {{ .Values.port }}
