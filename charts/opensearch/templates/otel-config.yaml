@@ -66,8 +66,8 @@ spec:
       - command:
           - "/otelcol-contrib"
           - "--config=/conf/otel-agent-config.yaml"
-        image: otel/opentelemetry-collector-contrib:0.88.0-arm64
-#        image: otel/opentelemetry-collector-contrib:0.88.0 
+#        image: otel/opentelemetry-collector-contrib:0.88.0-arm64
+        image: otel/opentelemetry-collector-contrib:0.88.0 
 #        image: otel/opentelemetry-collector-contrib:0.88.0@sha256:6504b7e4c348f15dba8401d56fa4f21991b8e8d85e92ff0d4c4701ea9aa4e4e6
         name: otel-agent
         resources:
@@ -184,8 +184,8 @@ spec:
       - command:
           - "/otelcol-contrib"
           - "--config=/conf/otel-collector-config.yaml"
-        image: otel/opentelemetry-collector-contrib:0.88.0-arm64
-#         image: otel/opentelemetry-collector-contrib:0.88.0
+#        image: otel/opentelemetry-collector-contrib:0.88.0-arm64
+        image: otel/opentelemetry-collector-contrib:0.88.0
 #         image: otel/opentelemetry-collector-contrib:0.88.0@sha256:6504b7e4c348f15dba8401d56fa4f21991b8e8d85e92ff0d4c4701ea9aa4e4e6
         name: otel-collector
         resources:
